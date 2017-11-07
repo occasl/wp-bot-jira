@@ -15,6 +15,7 @@ var config = {
   page_access_token: process.env.PAGE_ACCESS_TOKEN || '',
   verify_token: process.env.VERIFY_TOKEN || '',
   app_secret: process.env.APP_SECRET || '',
+  server_url: process.env.SERVER_URL || ''
 };
 
 module.exports = config;
